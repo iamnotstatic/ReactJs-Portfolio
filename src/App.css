@@ -2,7 +2,7 @@
     background: #833ab4;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
 }
 
 
@@ -23,7 +23,6 @@
 /* Contact */
 .contact-body{
     margin: auto;
-    position: fixed;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -61,8 +60,8 @@
 
 /* About */
 .about-grid {
-    background: #27221F;
-    color: white;
+    background: white;
+    color: black;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -89,11 +88,6 @@
     background: #833ab4;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     text-align: center;
 }
 
@@ -140,4 +134,298 @@
     color: white;
     font-size: 5em;
     padding: 8px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-color{
+        background: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    
+    /* Resume page*/
+    
+    .resume-right-col {
+        background: #27221F;
+        color: white;
+        padding: 2em;
+    }
+    
+    /* Projects */
+    .projects-grid {
+        display: flex;
+    }
+    
+    
+    /* Contact */
+    .contact-body{
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        padding-top: 2em;
+    }
+    
+    .contact-grid {
+        text-align: center;
+        justify-content: center;
+        width: 80%;
+        height: 550px;
+        background-color: white;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    .contact-grid h2 {
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .contact-grid p{
+        font-family: 'Oxygen', sans-serif;
+    }
+    
+    .contact-grid hr {
+        border-top: 5px dotted black;
+        width: 50%;
+        margin: auto
+    }
+    
+    .contact-list i {
+        font-size: 66px;
+        padding-right: 5rem;
+    }
+    
+    /* About */
+    .about-grid {
+        background: white;
+        color: black;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    
+    }
+    
+    .about-grid p{
+        font-family: 'Oxygen' sans-serif;
+        font-weight: bold;
+    }
+    
+    .about-grid h2 {
+        font-family: 'Anton', sans-serif;
+    }
+    
+    .about-banner {
+        margin: auto;
+        width: 80%;
+    }
+    
+    /* Landing page */
+    
+    .landing-grid{
+        background: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .avatar-img {
+        height: 250px;
+        padding-top: 5em;
+        border-radius: 100%;
+    }
+    
+    .banner-text {
+        background-color: black;
+        opacity: .8;
+        width: 75%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+    .banner-text h1{
+        font-size: 66px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner-text hr{
+        border-top: 5px dotted white;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .banner-text p{
+        color: white;
+        font-size: 20px;
+        padding: 1em;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .social-links i{
+        color: white;
+        font-size: 5em;
+        padding: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and  (min-width: 320px) and (max-width: 767px){
+    .header-color{
+        background: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    
+    /* Resume page*/
+    
+    .resume-right-col {
+        background: #27221F;
+        color: white;
+        padding: 2em;
+    }
+    
+    /* Projects */
+    .projects-grid {
+        display: block;
+        margin: auto;
+    }
+    
+    
+    /* Contact */
+    .contact-body{
+        margin: auto;
+        justify-content: center;
+        padding-top: 2em;
+    }
+    
+    .contact-grid {
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 550px;
+        background-color: white;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    .contact-grid h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 35px;
+    }
+    
+    .contact-grid p{
+        font-family: 'Oxygen', sans-serif;
+    }
+    
+    .contact-grid hr {
+        border-top: 5px dotted black;
+        width: 50%;
+        margin: auto
+    }
+    
+    .contact-list i {
+        font-size: 66px;
+        padding-right: 5rem;
+    }
+    
+    /* About */
+    .about-grid {
+        background: white;
+        color: black;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    
+    }
+    
+    .about-grid p{
+        font-family: 'Oxygen' sans-serif;
+        font-weight: bold;
+    }
+    
+    .about-grid h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 35px;
+    }
+    
+    .about-banner {
+        margin: auto;
+        width: 80%;
+    }
+    
+    /* Landing page */
+    
+    .landing-grid{
+        background: #833ab4;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    .avatar-img {
+        height: 250px;
+        padding-top: 5em;
+        border-radius: 100%;
+    }
+    
+    .banner-text {
+        background-color: black;
+        opacity: .8;
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+    .banner-text h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .banner-text hr{
+        border-top: 3px dotted white;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .banner-text p{
+        color: white;
+        font-size: 15px;
+        padding: 1em;
+    }
+    
+    .social-links {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .social-links i{
+        color: white;
+        font-size: 2em;
+        padding: 8px;
+    }
 }
