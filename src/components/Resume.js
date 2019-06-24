@@ -17,7 +17,7 @@ class Resume extends Component {
                                 alt="avatar"
                                 style={{height: '200px'}}
                             />
-                            <h2 style={{paddingTop: '2em', fontFamily: 'Anton'}}>Abdulfatai Suleiman</h2>
+                            <h2  id="resume-name">Abdulfatai Suleiman</h2>
                             <h4 style={{color: 'grey', fontFamily: 'Oxygen'}}>Programmer</h4>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                             <p style={{fontFamily: 'Oxygen'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

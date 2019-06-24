@@ -23,7 +23,7 @@ class LandingPage extends Component {
                                 </a>
                                 
                                
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/Abdul-fatai" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" arial-hidden="true" />
                                 </a>
                                

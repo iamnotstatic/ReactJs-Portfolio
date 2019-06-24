@@ -14,11 +14,24 @@
     padding: 2em;
 }
 
+#resume-name {
+    padding-top: '2em';
+    font-family: 'Anton', sans-serif;
+}
+
 /* Projects */
 .projects-grid {
     display: flex;
+    flex-wrap: wrap;
 }
 
+
+.card-rap {
+    min-width: 300px;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
 
 /* Contact */
 .contact-body{
@@ -157,10 +170,24 @@
         color: white;
         padding: 2em;
     }
+
+    #resume-name {
+        padding-top: '2em';
+        font-family: 'Anton', sans-serif;
+        font-size: 35px;
+    }
     
     /* Projects */
     .projects-grid {
         display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-rap {
+        min-width: 300px;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-bottom: 50px;
     }
     
     
@@ -307,14 +334,26 @@
         color: white;
         padding: 2em;
     }
+
+    #resume-name {
+        padding-top: '2em';
+        font-family: 'Anton', sans-serif;
+        font-size: 35px;
+    }
     
     /* Projects */
     .projects-grid {
         display: block;
         margin: auto;
     }
-    
-    
+
+    .card-rap {
+        min-width: 300px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+
     /* Contact */
     .contact-body{
         margin: auto;
