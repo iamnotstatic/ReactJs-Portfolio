@@ -18,7 +18,7 @@ class LandingPage extends Component {
                             <p>HTML/CSS | Bootstrap | Php | Ajax | Reactjs</p>
                             <div className="social-links">
                                 
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" arial-hidden="true" />
                                 </a>
                                 
@@ -28,7 +28,7 @@ class LandingPage extends Component {
                                 </a>
                                
                                 
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://twitter.com/DevStatic" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-twitter-square" arial-hidden="true" />
                                 </a>
                             </div>

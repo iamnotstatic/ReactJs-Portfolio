@@ -20,7 +20,9 @@ class Projects extends Component {
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                     </CardText>
                     <CardActions border>
-                     <Button colored>GitHub</Button>
+                     <Button colored>
+                         <a href="https://github.com/mui-org/material-ui/issues/7186" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none', color: '#3f51b5'}}>GitHub</a>
+                     </Button>
                      <Button colored>Code Pen</Button>
                      <Button colored>Live Demo</Button>
                     </CardActions>

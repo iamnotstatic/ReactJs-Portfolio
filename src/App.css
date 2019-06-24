@@ -344,14 +344,10 @@
     /* Projects */
     .projects-grid {
         display: block;
-        margin: auto;
     }
 
     .card-rap {
-        min-width: 300px;
-        margin-top: 20px;
-        margin-left: 0px;
-        margin-bottom: 50px;
+        margin: 0 0 10% 2%;
     }
 
     /* Contact */
