@@ -15,7 +15,7 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Web developer</h1>
                             <hr/>
-                            <p>HTML/CSS | Bootstrap | Php | Ajax | Reactjs</p>
+                            <p>HTML/CSS | Bootstrap | Php | Reactjs</p>
                             <div className="social-links">
                                 
                                 <a href="https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/" rel="noopener noreferrer" target="_blank">

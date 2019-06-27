@@ -13,7 +13,7 @@ class Contact extends Component {
                             alt="avatar"
                             style={{height: '250px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -23,28 +23,21 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square"  arial-hidden="true" />
-                                    (234) 8903-3030
+                                   +2348161846658
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px',  fontFamily: 'Anton'}}>
                                     <i className="fa fa-fax" arial-hidden="true" />
-                                    (234) 8903-3030
+                                    +2348161846658
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton' }}>
                                     <i className="fa fa-envelope" arial-hidden="true" />
-                                    someone@gmail.com
-                                </ListItemContent>
-                            </ListItem>
-                        
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton' }}>
-                                    <i className="fa fa-skype" arial-hidden="true" />
-                                    mySkypeID
+                                    staticdev20046@gmail.com
                                 </ListItemContent>
                             </ListItem>
                             
