@@ -20,17 +20,17 @@ class Resume extends Component {
                             <h2  id="resume-name">Abdulfatai Suleiman</h2>
                             <h4 style={{color: 'grey', fontFamily: 'Oxygen'}}>Programmer</h4>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                            <p style={{fontFamily: 'Oxygen'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            <p style={{fontFamily: 'Oxygen'}}>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs. 
                             </p>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                             <h5 style={{fontFamily: 'Oxygen'}}>Address</h5>
-                            <p style={{fontFamily: 'Oxygen'}}>1 Hacker Way  Menlo Park, 90840</p>
+                            <p style={{fontFamily: 'Oxygen'}}>Abuja, Nigeria</p>
                             <h5 style={{fontFamily: 'Oxygen'}}>Phone</h5>
                             <p style={{fontFamily: 'Oxygen'}}>+234 8161 846658</p>
                             <h5 style={{fontFamily: 'Oxygen'}}>Email</h5>
-                            <p style={{fontFamily: 'Oxygen'}}>someone@exmple.com</p>
+                            <p style={{fontFamily: 'Oxygen'}}>staticdev20046@gmail.com</p>
                             <h5 style={{fontFamily: 'Oxygen'}}>Web</h5>
-                            <p style={{fontFamily: 'Oxygen'}}>staticdev.com</p>
+                            <p style={{fontFamily: 'Oxygen'}}>https://abdul-fatai.github.io/MyPortfolio</p>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
 
                         </div>
