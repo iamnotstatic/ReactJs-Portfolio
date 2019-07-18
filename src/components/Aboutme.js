@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class Aboutme extends Component {
     render(){
         return(
-            <div className="about">
+            <div className="about-body">
                 <Grid className="about-grid">
                     <Cell col={12}>
                        <img 

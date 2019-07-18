@@ -1,8 +1,5 @@
 .header-color{
-    background: #833ab4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #333;  /* fallback for old browsers */
 }
 
 
@@ -117,9 +114,7 @@
 /* Landing page */
 
 .landing-grid{
-    background: #833ab4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #fff;
     text-align: center;
 }
 
@@ -179,12 +174,6 @@
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-color{
-        background: #833ab4;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    
     
     /* Resume page*/
     
@@ -297,9 +286,6 @@
     /* Landing page */
     
     .landing-grid{
-        background: #833ab4;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         width: 100%;
         height: 100%;
         text-align: center;
@@ -361,12 +347,6 @@
 
 
 @media only screen and  (min-width: 320px) and (max-width: 767px){
-    .header-color{
-        background: #833ab4;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    
     
     /* Resume page*/
     
@@ -385,12 +365,13 @@
     /* Projects */
     .projects-grid {
         display: block;
+        width: 100%;
+        height: 100%;
     }
 
     .card-rap {
-        margin: 0 0 10% 2%;
+        margin: 0 0 15px 0;
     }
-
     /* Contact */
     .contact-body{
         margin: auto;
@@ -414,7 +395,8 @@
     }
     
     .contact-grid p{
-        font-family: 'Oxygen', sans-serif;
+        font-family: 'Oxygen' sans-serif;
+        font-weight: bold;
     }
     
     .contact-grid hr {
@@ -429,10 +411,19 @@
     }
     
     /* About */
+    .about-body{
+        margin: auto;
+        justify-content: center;
+        padding-top: 2em;
+    }
     .about-grid {
-        background: #27221F;
-        color: white;
         text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 550px;
+        background-color: white;
+        color: black;
+        margin-bottom: 20px;
     
     }
     
@@ -470,12 +461,6 @@
     
     /* Landing page */
     
-    .landing-grid{
-        background: #833ab4;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-    
     .avatar-img {
         height: 250px;
         padding-top: 5em;
@@ -485,8 +470,9 @@
     .banner-text {
         background-color: black;
         opacity: .8;
-        width: 90%;
+        width: 100%;
         margin: auto;
+        padding: 3px;
         border-radius: 10px;
     }
     
@@ -494,6 +480,7 @@
         font-size: 30px;
         font-weight: bold;
         color: white;
+        line-height: 0;
     }
     
     .banner-text hr{
@@ -504,19 +491,19 @@
     
     .banner-text p{
         color: white;
-        font-size: 15px;
+        font-size: 17px;
         padding: 1em;
     }
     
     .social-links {
         display: flex;
-        width: 90%;
+        width: 60%;
         margin: auto;
     }
     
     .social-links i{
         color: white;
-        font-size: 2em;
+        font-size: 3em;
         padding: 8px;
     }
 }

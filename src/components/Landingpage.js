@@ -14,6 +14,7 @@ class LandingPage extends Component {
                         />
                         <div className="banner-text">
                             <h1>Web developer</h1>
+                            <p>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs.</p>
                             <hr/>
                             <p>HTML/CSS | Bootstrap | Php | Reactjs</p>
                             <div className="social-links">
