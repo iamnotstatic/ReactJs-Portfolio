@@ -317,8 +317,13 @@
     }
     
     .banner-text h1{
-        font-size: 66px;
+        font-size: 30px;
         font-weight: bold;
+        color: white;
+    }
+
+    .banner-text h3{
+        font-size: 20px;
         color: white;
     }
     
@@ -488,10 +493,15 @@
     }
     
     .banner-text h1{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         color: white;
-        line-height: 0;
+    }
+
+    .banner-text h3{
+        font-size: 20px;
+        color: white;
+        margin: 0;
     }
     
     .banner-text hr{
@@ -504,6 +514,7 @@
         color: white;
         font-size: 17px;
         padding: 1em;
+        margin: 0;
     }
     
     .social-links {
