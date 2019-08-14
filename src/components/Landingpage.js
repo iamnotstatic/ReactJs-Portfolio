@@ -15,8 +15,11 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Hi, i'm <span>Abdulfatai Suleiman </span></h1>
                             <h3>Web developer</h3>
-                            <p>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs.</p>
-                            <hr/>
+                            <p>Dynamic and detail-oriented Web Developer with a knack for conceptualizing
+                                and delivering elegant, user-friendly solutions effectively and effciently.
+                                Possesses a track record of developing a fully-functional website.
+                               </p>
+                            
                             <div className="social-links">
                                 
                                 <a href="https://www.linkedin.com/in/abdulfatai-suleiman-706ba6172/" rel="noopener noreferrer" target="_blank">

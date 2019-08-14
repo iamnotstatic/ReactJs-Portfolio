@@ -13,7 +13,9 @@ class Contact extends Component {
                             alt="avatar"
                             style={{height: '250px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs.</p>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Dynamic and detail-oriented Web Developer with a knack for conceptualizing
+                                and delivering elegant, user-friendly solutions effectively and effciently.
+                                Possesses a track record of developing a fully-functional website.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -37,7 +39,7 @@ class Contact extends Component {
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton' }}>
                                     <i className="fa fa-envelope" arial-hidden="true" />
-                                    staticdev20046@gmail.com
+                                    abdulfataisuleiman67@gmail.com
                                 </ListItemContent>
                             </ListItem>
                             

@@ -14,7 +14,9 @@ class Aboutme extends Component {
                        />
                        <div className="about-banner">
                        <h2>Abdulfatai Suleiman</h2>
-                       <p>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs. </p>
+                       <p>Dynamic and detail-oriented Web Developer with a knack for conceptualizing
+                                and delivering elegant, user-friendly solutions effectively and effciently.
+                                Possesses a track record of developing a fully-functional website.</p>
                 
                        <div className="social-links-about">
                                 

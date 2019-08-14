@@ -20,7 +20,9 @@ class Resume extends Component {
                             <h2  id="resume-name">Abdulfatai Suleiman</h2>
                             <h4 style={{color: 'grey', fontFamily: 'Oxygen'}}>Programmer</h4>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                            <p style={{fontFamily: 'Oxygen'}}>Dedicated web developer with two years of experience in database administration and website design. Strong creative and analytical skills. Team player with an eye for detail. HTML/CSS, Bootstrap, MySQL, Php and ReacJs. 
+                            <p style={{fontFamily: 'Oxygen'}}>Dynamic and detail-oriented Web Developer with a knack for conceptualizing
+                                and delivering elegant, user-friendly solutions effectively and effciently.
+                                Possesses a track record of developing a fully-functional website. 
                             </p>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                             <h5 style={{fontFamily: 'Oxygen'}}>Address</h5>
@@ -28,9 +30,9 @@ class Resume extends Component {
                             <h5 style={{fontFamily: 'Oxygen'}}>Phone</h5>
                             <p style={{fontFamily: 'Oxygen'}}>+234 8161 846658</p>
                             <h5 style={{fontFamily: 'Oxygen'}}>Email</h5>
-                            <p style={{fontFamily: 'Oxygen'}}>staticdev20046@gmail.com</p>
+                            <p style={{fontFamily: 'Oxygen'}}>abdulfataisuleiman67@gmail.com</p>
                             <h5 style={{fontFamily: 'Oxygen'}}>Web</h5>
-                            <p style={{fontFamily: 'Oxygen'}}>https://abdul-fatai.github.io/MyPortfolio</p>
+                            <p style={{fontFamily: 'Oxygen'}}>https://abdul-fatai.github.io/Portfolio</p>
                             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
 
                         </div>
@@ -38,34 +40,34 @@ class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2 style={{fontFamily: 'Oxygen'}}>Education</h2>
                         <Education
-                            startYear={2002} 
-                            endYear={2012}
-                            schoolName="My university"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                            startYear={2008} 
+                            endYear={2013}
+                            schoolName="FIRST LEAVING SCHOOL CERTIFICATE"
+                            schoolDescription="L.E.A Primary School Saburi, Dei-Dei, Abuja"
                         />
 
                         <Education
-                            startYear={2012} 
-                            endYear={2019}
-                            schoolName="My second university"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                            startYear={2013} 
+                            endYear={2018}
+                            schoolName="SENIOR SECONDARY SCHOOL CERTIFICATE"
+                            schoolDescription="Dependable International School, Dakwa, Niger state"
                         />
 
                         <hr style={{borderTop: '3px solid #e22947'}} />
 
                         <h2 style={{fontFamily: 'Oxygen'}}>Experience</h2>
                         <Experience 
-                            startYear = {2012}
+                            startYear = {2018}
                             endYear= {2019}
-                            jobName = "First Job"
-                            jobDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                            jobName = "SPACOJUICY COMPUTER INSTITUTE AND GRAPHIC PRINT"
+                            jobDescription = "Computer Operator"
                         />
 
                         <Experience 
-                            startYear = {2012}
-                            endYear= {2019}
-                            jobName = "Second Job"
-                            jobDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                            startYear = {2019}
+                            endYear= "Till date"
+                            jobName = "FREELANCE"
+                            jobDescription = "Team work, Meet with client"
                         /> 
 
                         <hr style={{borderTop: '3px solid #e22947'}} />
@@ -73,21 +75,28 @@ class Resume extends Component {
                         <h2 style={{fontFamily: 'Oxygen'}}>Skills</h2>
                         <Skills 
                             skill="HTML/CSS"
+                            progress = {80}
+                        />
+                        <Skills 
+                            skill="Laravel Php"
+                            progress = {60}
+                        />
+
+                        {/* <Skills 
+                            skill="ReactJS"
+                            progress = {40}
+                        /> */}
+                        <Skills 
+                            skill="SQL Database"
                             progress = {50}
                         />
                         <Skills 
-                            skill="Php"
-                            progress = {70}
-                        />
-
-                        <Skills 
-                            skill="ReactJS"
-                            progress = {40}
-                        />
-
-                        <Skills 
                             skill="Bootstrap"
                             progress = {65}
+                        />
+                        <Skills 
+                            skill="Git"
+                            progress = {35}
                         />
                     </Cell>
                 </Grid>        
